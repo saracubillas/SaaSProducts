@@ -1,0 +1,28 @@
+{
+    "name": "SaaSProducts",
+    "require": {
+        "symfony/config": "~2.5",
+        "symfony/console": "~2.5",
+        "symfony/yaml": "^2.7"
+    },
+    "require-dev": {
+        "behat/behat": "3.0.*",
+        "behat/mink": "1.5.*",
+        "behat/mink-goutte-driver": "*",
+        "phpunit/phpunit": "~4.2"
+    },
+    "authors": [
+        {
+            "name": "Sara Rodriguez Cubillas",
+            "email": "sara.cubillas@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "SaaSProducts": "src"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
